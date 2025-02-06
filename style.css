@@ -12,13 +12,14 @@ body{
   background: #080808;
   color: #fff;  
 }
-#header{
+/*--#header{
     width: 50%;
     height: 130vh;
     background-image: url(images/anishpng.png);
     background-size: cover;
     background-position: left;
-}
+}--*/
+
 .container{
     padding: 10PX 10%;
 }
