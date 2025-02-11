@@ -411,7 +411,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 500px){
     #header{
-        background-image: url(images/anishpng2.png);
+       /*-- background-image: url(images/anishpng2.png);--*/
         width: fit-content;
         
         
