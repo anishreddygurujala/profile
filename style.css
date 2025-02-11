@@ -46,7 +46,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: rgb(255, 0, 0);
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -71,7 +71,7 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     
-    color: red;
+    color: rgb(255, 0, 0);
 }
 /*------------------ABOUT----------------------*/
 #about{
@@ -132,7 +132,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: rgb(255, 0, 0);
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -147,7 +147,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: rgb(255, 0, 0);
     font-size: 14px;
 
 }
@@ -157,7 +157,7 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-/*-----edcation------------*/
+/*-----------education---------*/
 #education{
     padding: 50px 0;
 }
@@ -205,7 +205,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: rgb(255, 0, 0);
     font-size: 14px;
 
 }
@@ -215,6 +215,10 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+img.sticky {
+    position: sticky;
+    top: 0;
+  }
 /*----------portfolio---------------*/
 #portfolio{
     padding: 50px 0;
@@ -241,7 +245,7 @@ nav ul li a:hover::after{
 .layer{
     width: 80%;
     height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6),rgb(255, 0, 0));
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -264,7 +268,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: rgb(255, 0, 0);
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -285,7 +289,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid rgb(255, 0, 0);
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -293,7 +297,44 @@ nav ul li a:hover::after{
 
 }
 .btn:hover{
-    background: #ff004f;
+    background: rgb(255, 0, 0);
+}
+/*---------------game-----------*/
+.skills {
+    padding: 80px 0;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.skill-item i {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: rgb(255, 0, 0); /* Cor principal */
+}
+
+.skill-item:hover {
+    transform: scale(1.1);
+}
+
+.skill-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ccc;
 }
 
 /*------------contact-------------*/
@@ -308,7 +349,7 @@ nav ul li a:hover::after{
 margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: rgb(255, 0, 0);
     margin-right: 15px;
     font-size: 25px;
 
@@ -326,12 +367,12 @@ margin-top: 30px;
 
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: rgb(255, 0, 0);
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: rgb(255, 0, 0);
 }
 .contact-right form{
     width: 100%;
@@ -388,7 +429,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: rgb(255, 0, 0)f;
         position: fixed;
         top: 0;
         right: -250px;
