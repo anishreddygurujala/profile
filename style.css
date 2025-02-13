@@ -409,7 +409,7 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     body{
        display: block;
        margin: 1px; 
