@@ -75,7 +75,7 @@ nav ul li a:hover::after{
 }
 /*------------------ABOUT----------------------*/
 #about{
-    padding: 30px 0;
+    padding: 20px 0;
     color: #ababab;
 }
 .row{
@@ -159,7 +159,7 @@ nav ul li a:hover::after{
 }
 /*-----------education---------*/
 #education{
-    padding: 50px 0;
+    padding: 25px 0;
 }
 .edu-list{
     display: grid;
@@ -221,7 +221,7 @@ img.sticky {
   }
 /*----------portfolio---------------*/
 #portfolio{
-    padding: 50px 0;
+    padding: 30px 0;
 }
 .work-list{
     display: grid;
@@ -301,7 +301,7 @@ img.sticky {
 }
 /*---------------game-----------*/
 .skills {
-    padding: 80px 0;
+    padding: 30px 0;
 }
 
 .skills-grid {
@@ -346,7 +346,7 @@ img.sticky {
     flex-basis: 60%;
 }
 .contact-left p{
-margin-top: 30px;
+margin-top: 25px;
 }
 .contact-left p i{
     color: rgb(255, 0, 0);
@@ -421,13 +421,13 @@ nav .fa-solid{
         
     }
     .header-text{
-        margin-top: 20%;
+        margin-top: 15%;
         margin-left: 15px;
-        font-size: 30px;
+        font-size: 40px;
 
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     nav .fa-solid{
         display: block;
@@ -458,18 +458,20 @@ nav .fa-solid{
     }
     .sub-title{
         font-size: 70px;
+        padding: 25px;
     }
     .about-col-1{
         text-align: justify;
         display: inline-block;
         flex-basis: 100%;
+    
     }
     .about-col-2{
         flex-basis: 150%;
         margin-top: 30px;
     }
     .about-col-1{
-        font-size: 24px;
+        font-size: 18px;
 
     }
     .tab-links{
